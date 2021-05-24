@@ -1,0 +1,18 @@
+.carousel {
+    display : flex;
+    flex-wrap: nowrap;
+    align-items : center;
+    justify-content : space-between;
+    width: 1000px;
+    min-width: 320px;
+}
+
+.carousel>div{
+ padding: 20px
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
